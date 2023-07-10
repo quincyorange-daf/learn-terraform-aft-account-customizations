@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "ap-southeast-2"
-}
-
  #### To attch policy on Organization Account ########
  resource "aws_organizations_policy_attachment" "aft-test-cloudwatch-deny" {
    policy_id = aws_organizations_policy.aft-test-cloudwatch-deny.id  ## (Required) The unique identifier (ID) of the policy that you want to attach to the target.
