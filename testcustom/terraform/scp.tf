@@ -1,4 +1,6 @@
-
+provider "aws" {
+  region = "ap-southeast-2"
+}
 ## Create a Security Policy to restrict EC2 type 
 data "aws_iam_policy_document" "restrict_ec2_types" {
   statement {
