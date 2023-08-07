@@ -1,4 +1,4 @@
-variabale "target_id" {
+variable "target_id" {
     type = string
     default = ["192799173847"]
     }
