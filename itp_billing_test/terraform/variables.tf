@@ -1,4 +1,4 @@
 variable "target_id" {
-    type = number
-    default = ["192799173847"]
+    type = string
+    default = ["ou-gggb-taoatbmf"]
     }

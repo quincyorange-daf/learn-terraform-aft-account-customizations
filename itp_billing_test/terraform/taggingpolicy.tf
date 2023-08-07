@@ -18,5 +18,5 @@ resource "aws_organizations_policy" "TechTeamTag" {
 # Attach the policy to the specific OU "test-aft"
 resource "aws_organizations_policy_attachment" "TechTeamTag" {
   policy_id = aws_organizations_policy.TechTeamTag.id
-  target_id = "ou-gggb-0k7see5q"  # Replace this with the actual ID of the "test-aft" OU
+  target_id = "ou-gggb-taoatbmf"  # Replace this with the actual ID of the "test-aft" OU
 }
