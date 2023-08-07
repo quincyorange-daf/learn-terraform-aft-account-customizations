@@ -1,5 +1,4 @@
 variable "target_id" {
-    type = string
+    type = number
     default = ["192799173847"]
     }
-
