@@ -6,7 +6,7 @@ data "aws_iam_policy_document" "TechTeamTag" {
     condition {
       test     = "Null"  # Check if the tag exists and its value is not equal to the required value
       variable = "aws:RequestTag/technicalteam"
-      values   = ["ISS","HC","SA"] # This is the required value for the "technicalteam" tag
+      values   = [ISS,HC,SA] # This is the required value for the "technicalteam" tag
     }
   }
 }
